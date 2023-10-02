@@ -17,13 +17,7 @@ function ShopCard(item) {
 export default function CardsView(cards) {
   return (
     <div className='product-cards'>
-      {
-        cards.map(item => {
-          return (
-            <>{ShopCard(item)}</>
-          );
-        })
-      }
+      { cards.map(item => <>{ShopCard(item)}</>) }
     </div>
   );
 }

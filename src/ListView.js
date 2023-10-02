@@ -15,13 +15,7 @@ function ShopItem(item) {
 export default function ListView(items) {
   return (
     <div className='product-list'>
-      {
-        items.map(item => {
-          return (
-            <>{ShopItem(item)}</>
-          );
-        })
-      }
+      { items.map(item => <>{ShopItem(item)}</>) }
     </div>
   );
 }
