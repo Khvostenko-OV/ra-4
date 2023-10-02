@@ -1,0 +1,40 @@
+.product-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  width: 240px;
+  box-sizing: border-box;
+  margin: 10px 30px;
+  background: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card-name {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.card-color {
+  text-align: center;
+  font-size: small;
+}
+
+.card-image {
+  text-align: center;
+  margin: .5em 0;
+}
+
+.card-footer {
+  display: flex;
+  margin: 1em 0;
+}
+
+.card-price {
+  width: 50%;
+  text-align: center;
+  color: firebrick;
+}

@@ -1,0 +1,29 @@
+.product-item {
+  height: 40px;
+  width: 98%;
+  margin: 2px 10px;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 100px;
+}
+
+.product-name {
+  width: 360px;
+  text-align: center;
+}
+
+.product-color {
+  width: 160px;
+  text-align: center;
+  font-size: small;
+}
+
+.product-price {
+  width: 160px;
+  text-align: center;
+  color: firebrick;
+}
